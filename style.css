@@ -1,0 +1,70 @@
+body{
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+}
+
+.info{
+    color: aliceblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  
+  
+ li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: black;
+  }
+
+  .dropdown {
+    display: none; /* Initially hide dropdown */
+    position: absolute; /* Position it below the parent */
+    background-color: black; /* Match the navigation background */
+    min-width: 100px; /* Set a minimum width */
+    z-index: 1; /* Ensure it appears above other content */
+}
+
+li:hover .dropdown {
+    display: block; /* Show dropdown on hover */
+}
+
+.dropdown li {
+    float: none; /* Stack dropdown items */
+}
+
+.dropdown a {
+    padding: 12px; /* Adjust padding for dropdown links */
+    color: white; /* Text color for dropdown */
+}
+
+/* Change background color on hover for dropdown links */
+.dropdown a:hover {
+    background-color: #444; /* Slightly lighter on hover */
+}
+
+.closing{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+  
